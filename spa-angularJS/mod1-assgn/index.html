@@ -17,6 +17,7 @@
         how many items there are in the list.</p>
       <div class="form-group">
         <input type="text" placeholder="list comma separated dishes you usually have for lunch"
+        style="border: solid {{border_col}}"
              class="form-control"ng-model="inp">
       </div>
 
@@ -26,7 +27,7 @@
         </button>
       </div>
 
-      <div class="form-group message">
+      <div class="form-group message" style="color:{{msg_col}}">
         {{msg}}
       </div>
 
